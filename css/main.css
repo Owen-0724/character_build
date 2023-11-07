@@ -136,21 +136,28 @@ footer{
     width: 100vw;
     height: 100vh;
     position: absolute;
-    top: 0px;
+    top: -0px;
     left: 0px;
     background-color: rgba(0,0,0,0.85);
-    background-image: url(../images/Cap_LB_Bg.png);
+    background-image: url(../images/Lighting_mcqueen.png);
     background-repeat: no-repeat;
     background-size: 55vh;
-    background-position: 40px bottom;
+    background-position: 40px center;
     z-index: 5000;
     display: none;
 }
 
 #lightbox2{
-    background-image: url(../images/Thor_LB_Bg.png);
+    background-image: url(../images/The_king.png);
 }
 
+#lightbox3{
+    background-image: url(../images/Chick_Hicks.png);
+}
+
+#lightbox4{
+    background-image: url(../images/Sally.png);
+}
 .lightbox_close{
     position: relative;
     top: 20px;
