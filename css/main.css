@@ -181,6 +181,7 @@ footer{
     line-height: 1.6 !important;
 }
 
-.lightbox :target{  
-    
+.lightbox:target{  
+    display: block;
 }
+
