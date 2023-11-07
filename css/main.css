@@ -14,7 +14,7 @@ body{
 /*this is section for my header*/
 
 header {
-    background-color: rgb(170, 0, 0);
+    background-image: radial-gradient(rgb(150, 0, 0), black);
     padding: 10px 0px;
 }
 
@@ -44,19 +44,19 @@ header {
 .characters li {
     height: 220px;
     margin: 10px 8px;
-    background-color: black;
-    text-align: left;
+    background-color: white;
+    text-align: center;
     cursor: pointer;
     transition: box-shadow 0.2s ease-out;
-    box-shadow: 0 155px 0 0 rgb(170, 0, 0) inset;
+    box-shadow: 0 155px 0 0 lightgray inset;
 }
 
 .characters li:hover{
-    box-shadow: 0 220px 0 0 rgb(170, 0, 0) inset;
+    box-shadow: 0 220px 0 0 lightgray inset;
 }
 
 .characters li h5{
-    color: white;
+    color: black;
     padding: 12px,8px;
 }
 
